@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{
+            background-color: aqua;
+            color: crimson;
+            height: fit-content;
+            width: fit-content;
+            font-size: 50px;
+            
+        }
+    </style>
+    
+    <title>Document</title>
+    <script>
+        function func1() {
+            document.getElementById("div1").innerHTML="thank you";
+        }
+        function func2() {
+            document.getElementById("div1").innerHTML="mouse over me";
+        }
+    </script>
+</head>
+<body>
+    <div id="div1" onmouseover="func1()" onmouseout="func2()">mouse over me</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <script>
+        function func() {
+
+            // var u = document.getElementById("t1").value;
+            // var pat = /^@|^_|^[0-9]/;
+            // if (pat.test(u)) {
+            //     alert("name does not start with @,_ and digit");
+            // }
+                // var pat = /[@,*,#,_]/;
+                // if(pat.test(u)){
+                //     alert("good");
+                // }
+                // else{
+                //     alert("not good");
+                // }
+
+                var d = document.getElementById("t3").value;
+                var pat_m = /[0-9]/;
+                if (d.length="" || d.length!=10) {
+                alert("can not be empty");
+            }
+            else if(pat_m.test(d)){
+                alert("valid");
+            }
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <!-- <input type="password" id="t1"> -->
+    <input type="text" id="t3">
+    <input type="button" value="click me" onclick="func()">
+</body>
+
+</html>

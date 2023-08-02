@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+        fieldset {
+            width: fit-content;
+            margin-left: 400px;
+        }
+
+        h2 {
+            margin-left: 470px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <h2>This is my first html form</h2>
+    <br>
+    <form id="f1" align="center">
+        <fieldset>
+            <legend align="center">
+                login
+            </legend>
+            <div>
+                <label for="myname">Name</label>
+                <input type="text" name="myname">
+            </div>
+            <br>
+            <div>
+                Email:<input type="text">
+            </div>
+            <br>
+            <div>
+                MobileNo:<input type="text"/>
+            </div>
+            <br>
+
+
+            <div>
+                Are you aligaible?: <input type="checkbox" name="checkbox">
+            </div>
+            <br>
+            <div>
+                Gender: male <input type="radio" name="mygender" id=""> female <input type="radio" name="mygender"
+                    id="">
+            </div>
+            <br>
+            <div>
+                my car :<select name="mycar">
+                    <option value="fortuner">fortuner</option>
+                    <option value="innova">innova</option>
+
+                </select>
+            </div>
+            <br>
+            <div>
+                <button type="button">Submit</button>
+                <input type="reset" value="reset"/>
+            </div>
+            <br>
+            <div>
+                write about your self <textarea name="write about your self"></textarea>
+            </div>
+
+        </fieldset>
+    </form>
+   
+</body>
+
+</html>
